@@ -2,8 +2,8 @@ import streamlit as st
 import requests
 
 # Setup
-FINNHUB_KEY = "d6qfi11r01qhcrmk0dcgd6qfi11r01qhcrmk0dd0"
-NEWS_KEY = "e75d51fd0d66452b8894dfca30c603d4"
+FINNHUB_KEY = st.secrets["FINNHUB_KEY"]
+NEWS_KEY = st.secrets["NEWS_KEY"]
 
 st.title("Live Stock Sentiment Tracker 📈")
 ticker = st.text_input("Enter Stock Ticker (e.g., AAPL, TSLA):", "AAPL")
