@@ -3,3 +3,5 @@ requests
 textblob
 plotly
 pandas
+scikit-learn
+numpy
