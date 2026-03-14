@@ -1,0 +1,4 @@
+Finhub API = "d6qfi11r01qhcrmk0dcgd6qfi11r01qhcrmk0dd0"
+
+
+News API = "e75d51fd0d66452b8894dfca30c603d4"
